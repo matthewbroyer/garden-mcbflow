@@ -2,8 +2,8 @@
    It never stores garden data (that lives in your browser storage) and never touches
    other sites' requests, such as the optional weather forecast.
    Change VERSION whenever a file in SHELL changes. */
-const VERSION = 'garden-v1.4';
-const SHELL = ['./', 'index.html', 'mb-suite-topbar.css', 'manifest.json', 'apple-touch-icon.png', 'favicon.ico', 'favicon.svg', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png', 'mb-sync.js', 'vendor/supabase.js'];
+const VERSION = 'garden-v1.5';
+const SHELL = ['./', 'index.html', 'mb-suite-topbar.css', 'manifest.json', 'apple-touch-icon.png', 'favicon.ico', 'favicon.svg', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png', 'mb-sync.js', 'mb-files.js', 'vendor/supabase.js'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));

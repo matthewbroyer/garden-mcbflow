@@ -1,4 +1,4 @@
-# Attributions — mbgarden.online
+# Attributions — garden.mcbflow.com
 
 Last updated: October 13, 2026
 
@@ -43,13 +43,13 @@ The per-zone frost-date defaults are approximate averages compiled for this app.
 - UF/IFAS Extension, Gardening Solutions: Citrus. https://gardeningsolutions.ifas.ufl.edu/plants/edibles/fruits/citrus/
 
 ### Independence
-mbgarden.online is not affiliated with or endorsed by any of the organizations above. Their names are used only to credit sources. The Terms page says the same.
+garden.mcbflow.com is not affiliated with or endorsed by any of the organizations above. Their names are used only to credit sources. The Terms page says the same.
 
 ## Fonts
 The app uses the visitor's own system fonts (for example Segoe UI on Windows or San Francisco on Apple devices). It doesn't embed or download any fonts, and the standalone build's security policy blocks font loading (`font-src 'none'`). The earlier embedded OFL fonts (Bricolage Grotesque, Instrument Sans, IBM Plex Mono) have been removed, so no font license applies.
 
 ## Emoji and icons
-The crop emoji are Unicode characters drawn by the visitor's own operating-system emoji font. No emoji images are bundled. The mbgarden.online logo (a leaf over a soil row, on the MB Suite gradient badge) is an original SVG made for this app in October 2026. The app icons, favicon and `og-image.png` are rendered from it. The paper-cutout sprouts on the Today banner, share cards and OG image (template NA-17, "Garden Rows") are original artwork from the MB Suite nature-shape set.
+The crop emoji are Unicode characters drawn by the visitor's own operating-system emoji font. No emoji images are bundled. The garden.mcbflow.com logo (a leaf over a soil row, on the MB Suite gradient badge) is an original SVG made for this app in October 2026. The app icons, favicon and `og-image.png` are rendered from it. The paper-cutout sprouts on the Today banner, share cards and OG image (template NA-17, "Garden Rows") are original artwork from the MB Suite nature-shape set.
 
 ## Code
 There are no third-party JavaScript or CSS libraries. All code is original. The MB Suite scripts (tab titles, Install card, share cards) and CSS layers inside `index.html` come from Matthew Broyer's own MB Suite design kit, shared by his apps.
