@@ -2,6 +2,26 @@
 
 Newest first. One entry per release, in plain words a user would understand.
 
+## 1.7 · 2026-10-17
+- Garden opens on Home for everyone, and the logo takes you there. On phones the bottom bar is Home · Beds · + · Schedule · More: the + adds a task, the same as "+ Add a task" on Home. Harvests moved into More.
+- More is one short list, the same in every mcbflow.com app: Settings, Harvests, Records, Crop guide, Help and What's new. Privacy, Terms and Credits are in the page footer and in Settings → About.
+- What's new opens the same dialog from the footer, Settings → About and More. The separate Release notes page is gone (old #notes links open the dialog).
+- Sample data loads only when you pick "Start with sample data" in the welcome (or Plans… → Add sample data). A new garden starts empty. If you have the sample, Home shows a note with Remove sample data, and Undo right after. Sample entries are tagged "Sample". Gardens that already have the sample keep it until they remove it.
+- Deleting a harvest entry, a crop or a plan happens right away, with Undo in the message instead of an "Are you sure?" box.
+- Search (the Search button, / or Ctrl+K) uses the same search box as the other apps: your plantings, harvests and records first, then plans, crops, pages, actions and help.
+- Clearer Help: Getting started in five steps, then questions by topic, ending with Install the app and Your data & privacy.
+- Settings starts with "Changes save as you make them.", the Install section reads the same as in the other apps, and the column is no longer centered.
+- The Home banner reads "Your garden" with the date and your zone. Empty lists say what goes there, with a button to add one. Outline icons replace emoji on buttons and lists (crop emoji on your beds stay).
+- Export file names follow one pattern, for example garden-backup-2026-10-17.zip and garden-harvests-2026-10-17.csv (the rolling backup file is still garden-backup.json). Exporting an empty list still saves a file. Older backup files still import.
+- Seedlings started indoors show in a light green on the map and charts instead of lavender.
+- Your plans, crops, harvests, records, photos and settings are unchanged.
+
+## 1.6 · 2026-10-17
+- Clear all data now asks you to type DELETE, the same in every mcbflow.com app. It offers to save a backup first, and still deletes your synced copy too when you're signed in. The button on the Privacy page is now called Clear all data… too.
+- Account pop-up spacing fixed.
+- The Home banner art is no longer cut off on phones, and the banner has the same height as in the other apps. Its second line now shows your zone (and the "this plan is for …" note) before the plan names, so a long plan name can't push them out of view.
+- Very long plan, crop and note names wrap instead of pushing the page sideways on phones.
+
 ## 1.5 · 2026-10-16
 - New Settings page (gear in the sidebar; first item under More on phones): theme, sync, your zone and frost dates, plans, plot size, auto-size big crops, weather alerts, the getting-started checklist, backups, Install and About in one place. Install and About moved here from Help.
 - New account button in the top bar. Signed in, it shows your profile picture (or initial) with a sync dot. New "Keep me signed in on this device" switch: turn it off on a shared computer and you're signed out when the browser closes.
